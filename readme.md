@@ -6,9 +6,9 @@ algorithm impossible to game.
 The particular scenario this algorithm is trying to solve is one where applicants are not required to rank every project
 and they cannot be assigned to projects they do not rank. A problem with other solutions is that because their goal is
 typically to get everyone a spot, including a low-demand project in one's rankings will almost guarantee the applicant
-to get that low-demand location, since other more strateigic applicants would have only ranked high-demand projects.
-This results in the dilemma of people ranking projects to game the system rather than actually ranking projects in order
-of preference.
+to get that low-demand project over higher-rated high-demand projects since other more strateigic applicants would have
+only ranked high-demand projects. This results in the dilemma of people ranking projects to game the system rather than
+actually ranking projects in order of preference.
 
 This new algorithm (called PALS for Project Assignment Lottery System) has the beneficial property that the most optimal
 strategy for an applicant is to rank projects in the order that they actually want the projects. In other words,

@@ -1,0 +1,23 @@
+[package]
+name = "project-assignment-lottery-system"
+version = "0.1.0"
+edition = "2021"
+
+[[bench]]
+name = "benchmarks"
+harness = false
+
+[[test]]
+name = "tests"
+harness = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+binary-heap-plus = "0.5.0"
+compare = "0.1.0"
+itertools = "0.13.0"
+rand = "0.8.5"
+
+[dev-dependencies]
+criterion = "0.5.1"
